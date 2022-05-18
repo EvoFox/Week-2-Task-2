@@ -1,7 +1,11 @@
+
 body{
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+}
+body, h2, p{
+    font-family: arial,verdana,sans-serif;
 }
 .top-bar{
     width: 100vw;
@@ -77,10 +81,12 @@ header nav ul li a {
     margin: 0;
     font-size: 1.4em;
     padding: 10px;
+    font-size: 1em;
 }
 .input-wrapper .button-input{
     height: auto;
     width: 9.5vw;
+    font-size: 1em;
 
     margin-left: -6px;
     padding: 10px;
@@ -103,10 +109,14 @@ header nav ul li a {
 .main-header{
     text-align: center;
     width: 60vw;
+
+    font-size: 2em;
 }
-#main-para{
+.main-para{
     margin-left: 5vw;
     width: 50vw;
+
+    font-size:  1.3em;
 }
 
 #main-wrapper{
@@ -118,6 +128,9 @@ header nav ul li a {
     height: 42vh;
     width: 100vw;
     margin-left: 0;
+
+    border-style: solid none none none;
+    border-width: 3px;
     
     align-content: center;
 }
@@ -151,4 +164,33 @@ header nav ul li a {
     height: auto;
     padding-left: 10px;
     
+}
+
+.header-type-one {
+    color: #32658d;
+}
+.header-type-two {
+    color: #002855;
+}
+#third-header {
+    color: #000;
+}
+#fourth-header {
+    color: #000;
+}
+#fifth-header {
+    color: #000;
+}
+#sixth-header {
+    color: #000;
+}
+#seventh-header {
+    color: #000;
+}
+
+.footer-para{
+    text-align: center;
+    width: 60vw;
+
+    font-size: 0.8em;
 }
