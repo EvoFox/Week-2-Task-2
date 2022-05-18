@@ -96,3 +96,12 @@ header nav ul li a {
 }
 
 
+
+.main-header{
+    text-align: center;
+    width: 60vw;
+}
+#main-para{
+    margin-left: 5vw;
+    width: 50vw;
+}
