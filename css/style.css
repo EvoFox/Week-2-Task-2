@@ -95,6 +95,9 @@ header nav ul li a {
     font-size: 1.3em;
 }
 
+.content{
+    margin-bottom: 10vh;
+}
 
 
 .main-header{
@@ -104,4 +107,48 @@ header nav ul li a {
 #main-para{
     margin-left: 5vw;
     width: 50vw;
+}
+
+#main-wrapper{
+    width: 100vw;
+}
+
+#newsletter{
+    background-color: #97dffc;
+    height: 42vh;
+    width: 100vw;
+    margin-left: 0;
+    
+    align-content: center;
+}
+.news-form-wrapper{
+    display: inline;
+    margin-left: 40vw;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 60vw;
+    padding-left: -vw;
+}
+
+#news-form{
+    margin-left: 20vh;
+    width: 40vw;
+}
+
+#copyright{
+    height: 20vh;
+    margin-left: 0;
+    width: 100vw;
+    display: flex;
+    background-color: #65a2c4;
+}
+#social-wrapper{
+    width: 15vw;
+    display: flex;
+}
+#social-img{
+    width: 70px;
+    height: auto;
+    padding-left: 10px;
+    
 }
